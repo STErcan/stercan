@@ -10,12 +10,21 @@ html, body
 	height: 100%;
 }
 
+p {
+	font-size: 4em;
+	font-weight: bolder;
+}
 #wrapper
 {
-	background-image: url("../images/stercan1.png");
+	background-image: url("images/stercan1.png");
     background-position: center center;
     background-repeat: no-repeat;
     display: block;
     height: 100%;
     width: 100%;
+}
+
+#main_text {
+	width: 444px;
+	margin: 0 auto;
 }
